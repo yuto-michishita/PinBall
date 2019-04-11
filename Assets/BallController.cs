@@ -10,6 +10,7 @@ public class BallController : MonoBehaviour {
 	public int sumScore;
 	private GameObject gameoverText;
 	private GameObject ScoreText;
+
 	// Use this for initialization
 	void Start () {
 		this.gameoverText = GameObject.Find ("GameOverText");
